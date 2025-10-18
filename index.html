@@ -1,0 +1,152 @@
+index.html
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Desafio 8 Semanas — Promoção Exclusiva</title>
+  <style>
+    :root{--accent:#e33b2b;--dark:#0f0f10;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:linear-gradient(180deg,#0b0b0c 0%, #111317 100%);color:#fff;line-height:1.5}
+    .container{max-width:1100px;margin:28px auto;padding:20px}
+    header{display:flex;gap:20px;align-items:center}
+    .badge{background:var(--accent);color:#fff;padding:6px 12px;border-radius:8px;font-weight:700}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center;margin-top:18px}
+    .hero h1{font-size:38px;margin:0 0 12px}
+    .sub{color:var(--muted);margin-bottom:18px}
+    .ctas{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:14px 18px;border-radius:10px;font-weight:700;border:0;cursor:pointer;text-decoration:none;justify-content:center}
+    .btn-primary{background:var(--accent);color:#fff;animation:pulse 1.5s infinite}
+    @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(227,59,43,0.6);}70%{box-shadow:0 0 0 15px rgba(227,59,43,0);}100%{box-shadow:0 0 0 0 rgba(227,59,43,0);}}
+    .btn-wpp{background:#25D366;color:#042;box-shadow:0 6px 18px rgba(37,211,102,.08)}
+    .hero-right{background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(0,0,0,.02));padding:18px;border-radius:12px;text-align:center}
+    .profile{width:100%;height:420px;object-fit:cover;border-radius:10px;margin-bottom:12px}
+    .price-box{background:#101112;border-radius:10px;padding:14px;text-align:center;margin-top:10px}
+    .old-price{text-decoration:line-through;color:#888;font-size:16px}
+    .new-price{font-size:28px;font-weight:800;color:#00ff88;margin-top:4px}
+    .features{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap}
+    .feature{background:#0d0d0e;padding:14px;border-radius:10px;flex:1;min-width:240px}
+    .testimonials{margin-top:28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+    .testimonial{background:linear-gradient(180deg,#0d0d0e,#0b0b0c);padding:12px;border-radius:10px;text-align:center}
+    .testimonial img{width:100%;height:240px;object-fit:cover;border-radius:8px}
+    .testimonial p{margin:10px 0 0;font-weight:700}
+    .sec{margin-top:28px;padding:18px;background:#080808;border-radius:12px}
+    footer{margin-top:28px;padding:18px;text-align:center;color:var(--muted);font-size:14px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr;}.hero-right{order:-1}.profile{height:320px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">🔥 OFERTA RELÂMPAGO — SÓ HOJE 🔥</div>
+      <div style="margin-left:auto;display:flex;gap:10px;align-items:center">
+        <div class="small-muted">Suporte rápido:</div>
+        <a class="btn btn-wpp" href="https://wa.me/5537998760575" target="_blank">WhatsApp • (37) 99876-0575</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Desafio 8 Semanas — Transforme seu corpo e sua mente</h1>
+        <div class="sub">Método direto, agressivo e 100% eficaz. Desenvolvido por atleta profissional com experiência real em performance e resultados.</div>
+
+        <div class="features">
+          <div class="feature">
+            <strong>🔥 Método de 8 semanas</strong>
+            <div class="small-muted">Treinos objetivos e progressivos — zero enrolação.</div>
+          </div>
+          <div class="feature">
+            <strong>⚡ Resultados comprovados</strong>
+            <div class="small-muted">Base científica, performance atlética e transformação real.</div>
+          </div>
+          <div class="feature">
+            <strong>💬 Suporte pessoal</strong>
+            <div class="small-muted">Contato direto comigo via WhatsApp — dúvidas e ajustes.</div>
+          </div>
+        </div>
+
+        <div class="price-box">
+          <div class="old-price">De R$ 499,00</div>
+          <div class="new-price">Por apenas R$ 37,90</div>
+          <div style="color:#ffcb2b;font-weight:600;margin-top:4px">Promoção por tempo LIMITADO!</div>
+        </div>
+
+        <div style="margin-top:22px" class="ctas">
+          <a class="btn btn-primary" href="https://ev.braip.com" target="_blank">QUERO GARANTIR MINHA VAGA AGORA</a>
+          <a class="btn btn-wpp" href="https://wa.me/5537998760575" target="_blank">FALAR COM O COACH NO WHATSAPP</a>
+        </div>
+      </div>
+
+      <aside class="hero-right">
+        <img class="profile" src="WhatsApp Image 2025-07-01 at 23.38.00.jpeg" alt="Apresentação Vitor Álvaro" />
+        <h3>Sobre mim</h3>
+        <p>Sou atleta e especialista em performance física. Após anos competindo e estudando o corpo humano, desenvolvi o método <strong>Desafio 8 Semanas</strong> — uma estratégia que une ciência, foco e disciplina. Todos os protocolos são testados e otimizados para resultados reais e duradouros.</p>
+        <p>Com mais de 100 alunos transformados, posso afirmar: <strong>este método funciona.</strong> E se você seguir o passo a passo, os resultados virão.</p>
+        <p><em>Garantia total de satisfação — se não funcionar pra você, eu devolvo seu dinheiro.</em></p>
+      </aside>
+    </section>
+
+    <section class="sec">
+      <h2 style="margin:0 0 12px;text-align:center">Resultados Reais — Transformações de Alunos</h2>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img src="chris-allen-antes-depois.webp" alt="Depoimento 1" />
+          <p>“Em poucas semanas recuperei minha autoestima. O método é simples, mas poderoso.” — João</p>
+        </div>
+        <div class="testimonial">
+          <img src="httpsrevistaanamaria.com_.brmediauploads2021-12nego-di-perde-30-quilos.jpg" alt="Depoimento 2" />
+          <p>“Perdi 20kg e ganhei disposição. Nunca me senti tão bem.” — Rodrigo</p>
+        </div>
+        <div class="testimonial">
+          <img src="paulinha.webp" alt="Depoimento 3" />
+          <p>“Achei que seria impossível, mas em 8 semanas mudei completamente.” — Paulinha</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <h3 style="margin-top:0">Por que o Desafio 8 Semanas funciona?</h3>
+      <ul style="margin:8px 0 0;padding-left:18px;color:var(--muted)">
+        <li>Protocolos otimizados de treino e alimentação, criados por atleta profissional.</li>
+        <li>Planejamento ajustável para qualquer rotina.</li>
+        <li>Foco em performance, saúde e estética.</li>
+        <li>Garantia de satisfação — ou seu dinheiro de volta.</li>
+      </ul>
+    </section>
+
+    <section class="sec" style="text-align:center">
+      <h2 style="color:#00ff88">🔥 ÚLTIMAS VAGAS — PROMOÇÃO DE LANÇAMENTO 🔥</h2>
+      <p>De R$ 499,00 por <strong>apenas R$ 37,90</strong>. Oferta válida até o contador zerar!</p>
+      <div style="margin:20px 0">
+        <a class="btn btn-primary" href="https://ev.braip.com" target="_blank">GARANTIR MINHA VAGA AGORA</a>
+      </div>
+      <div id="countdown" style="font-size:22px;font-weight:700;background:#111;padding:10px 16px;border-radius:8px;display:inline-block"></div>
+    </section>
+
+    <footer>
+      <div style="margin-bottom:8px">© 2025 Desafio 8 Semanas — Criado por Vitor Álvaro</div>
+      <div class="small-muted">Checkout seguro hospedado em ev.braip.com</div>
+    </footer>
+  </div>
+
+  <script>
+    (function(){
+      const key='desafio8_deadline_v2';
+      let deadline = localStorage.getItem(key);
+      if(!deadline){deadline = Date.now() + 48*60*60*1000; localStorage.setItem(key, deadline);}
+      function tick(){
+        const now = Date.now();
+        let diff = Math.max(0, deadline - now);
+        const h = Math.floor(diff/3600000); diff%=3600000;
+        const m = Math.floor(diff/60000); diff%=60000;
+        const s = Math.floor(diff/1000);
+        document.getElementById('countdown').textContent = `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+      }
+      tick();
+      setInterval(tick,1000);
+    })();
+  </script>
+</body>
+</html>
+
